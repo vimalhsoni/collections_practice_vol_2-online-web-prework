@@ -1,6 +1,5 @@
 # your code goes here
 def begins_with_r(array)
-  array.each do |x|
-    array[x].start_with?("ruby")
+  array.any? { |s| s.include?('uby') }
   end
 end

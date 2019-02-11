@@ -8,7 +8,7 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.first
+  array[3]
 end
 
 def remove_non_strings

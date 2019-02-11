@@ -1,6 +1,6 @@
 # your code goes here
 def begins_with_r(array)
   array.each do |x|
-    x.start_with?("ruby")
+    array[x].start_with?("ruby")
   end
 end

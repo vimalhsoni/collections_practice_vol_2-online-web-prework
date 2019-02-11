@@ -15,4 +15,3 @@ end
 
 def count_elements
 end
-

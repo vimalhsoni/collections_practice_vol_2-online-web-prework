@@ -8,8 +8,7 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.select{|a| a.start_with('wa') }.first]
-end
+  options.index{ |o| o.value == "wall" }
 end
 
 def remove_non_strings

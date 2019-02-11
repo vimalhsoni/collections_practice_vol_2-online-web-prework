@@ -8,7 +8,7 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.select { |word| word.include?("a") == true }
+  array.detect { |word| word.include?("a") == true }
 end
 
 def remove_non_strings

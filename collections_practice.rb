@@ -4,7 +4,7 @@ def begins_with_r(array)
   end
 
 def contain_a(array)
-  array.select { |word| favor.include?("a") == true }
+  array.select { |word| word.include?("a") == true }
 end
 
 def first_wa

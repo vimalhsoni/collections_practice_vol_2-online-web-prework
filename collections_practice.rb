@@ -3,7 +3,7 @@ def begins_with_r(array)
   array.all? { |s| s.start_with?('r') }
   end
 
-def contain_a_return(array)
+def contain_a(array)
   array.select { |word| favor.include?("a") == true }
 end
 
